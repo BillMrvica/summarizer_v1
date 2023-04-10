@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 import os
-from text.functions import summarize
+from text.function import summarize
 
 try:
 	openai.api_key = os.getenv('OPENAI_KEY')
