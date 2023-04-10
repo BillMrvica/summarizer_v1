@@ -4,7 +4,7 @@ import os
 from text.functions import summarize
 
 try:
-	openai.api_key = os.getenv('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')
+	openai.api_key = os.getenv('OPENAI_KEY')
 
 	st.title("Text Summarizer")
 
