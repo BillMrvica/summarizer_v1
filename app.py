@@ -15,7 +15,7 @@ try:
 	input_text = st.text_area(label='Enter full text:', value="", height=250)
 
 	st.button(
-	    "submit".
+	    "submit",
 	    on_click=summarize,
 	    kwargs={"prompt": input_text}
 	)
